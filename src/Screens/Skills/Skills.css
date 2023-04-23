@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin&display=swap'); /*'M PLUS Code Latin', sans-serif*/
+
+
+.skill-container{
+    margin: 0% 15%;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.skill-title{
+    margin: 0% 15%;
+    padding: 0px 10px;
+    font-family: 'M PLUS Code Latin', sans-serif;
+    padding-bottom: 30px;
+}

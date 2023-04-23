@@ -7,6 +7,7 @@ import {
  } from "react-router-dom"
 import Home from './Screens/Home/Home'
 import Header from './components/Headder/Header'
+import Skills from './Screens/Skills/Skills'
 
 const App = () => {
   return (
@@ -14,7 +15,7 @@ const App = () => {
       <Header />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='Skills' element={<h1>skills</h1> }/>
+        <Route path='Skills' element={<Skills />}/>
         <Route path='projects' element={<Home />} />
       </Routes>
     </MainRouter>
