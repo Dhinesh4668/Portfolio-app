@@ -8,6 +8,7 @@ import {
 import Home from './Screens/Home/Home'
 import Header from './components/Headder/Header'
 import Skills from './Screens/Skills/Skills'
+import Projects from './Screens/Projects/Projects'
 
 const App = () => {
   return (
@@ -15,8 +16,8 @@ const App = () => {
       <Header />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='Skills' element={<Skills />}/>
-        <Route path='projects' element={<Home />} />
+        <Route path='Skill' element={<Skills />}/>
+        <Route path='project' element={<Projects />} />
       </Routes>
     </MainRouter>
   )
