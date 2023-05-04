@@ -1,0 +1,14 @@
+/* swiper container */
+.swiper-container{
+    width: 75%;
+    background-color: red;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    
+}
+.project-swiperslider{
+    display: flex;
+    justify-content: center;
+    
+}

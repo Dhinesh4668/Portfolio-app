@@ -10,7 +10,7 @@ const Home = () => {
             <h1>Hai 👋, I'm <span>Dhinesh Kumar 😉</span></h1>
           </div>
           <div>
-            <p>some content </p>
+            <p>hai, hello i am dhinesh kumar . this is my proficinal web sit <break/></p>
           </div>
           <div className='home-btn'>
               <button>Resume </button>
